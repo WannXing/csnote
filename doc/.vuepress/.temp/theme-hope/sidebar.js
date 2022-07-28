@@ -1,1 +1,1 @@
-export const sidebarData = {"/guide/":["page.md","markdown.md","disable.md","encrypt.md"]}
+export const sidebarData = {"/net/":["README.md","01-概述.md","02-物理层.md","03-数据链路层.md","04-网络层.md","05-传输层.md","06-应用层.md","07-面试常客.md","ping原理.md"]}

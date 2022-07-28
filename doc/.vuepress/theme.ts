@@ -6,8 +6,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "WanXing",
+    url: "https://WannXing.github.io",
   },
 
   iconAssets: "iconfont",
@@ -31,7 +31,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个前端开发者",
+    description: "努力学习408",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
@@ -85,11 +85,14 @@ export default hopeTheme({
        * Using Giscus
        */
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-
+      // repo: "vuepress-theme-hope/giscus-discussions",
+      // repoId: "R_kgDOG_Pt2A",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOG_Pt2M4COD69",
+      repo: "WannXing/csnote_feedback",
+      repoId: "R_kgDOHusM4A",
+      category: "Ideas",
+      categoryId: "DIC_kwDOHusM4M4CQenO",
       /**
        * Using Twikoo
        */
