@@ -11,22 +11,22 @@ projects:
   - icon: project
     name: 计算机网络
     desc: Net
-    link: https://你的项目链接
+    link: "/net/"
 
   - icon: link
     name: 操作系统
     desc: OS
-    link: https://链接地址
+    link: "/os/"
 
   - icon: book
     name: 计算机组成原理
-    desc: JZ
-    link: https://你的书籍链接
+    desc: CO
+    link: "/co/"
 
   - icon: article
     name: 数据结构
     desc: DS
-    link: https://你的文章链接
+    link: "/ds/"
 
   # - icon: friend
   #   name: 伙伴名称
