@@ -6,7 +6,7 @@ heroImage: /logo.svg
 heroText: 项目名称
 tagline: 你可以在这里放置或是整个项目的描述。
 actions:
-  - text: 使用指南 💡
+  - text: 零零零零 💡
     link: /guide/
     type: primary
 
