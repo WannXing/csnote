@@ -16,20 +16,3 @@ date: 2022-07-28
 ### 参考资料
 
 [2019 王道考研](https://www.bilibili.com/video/BV19E411D78Q)
-
-### 使用软件
-
-> Typora：一款轻便简洁的Markdown编辑器
->
-> 下载地址：
->
-> [官网](https://www.typora.io/)
->
-> [Windows系统版本](https://www.typora.io/#windows)
-
-### 说明
-
-1. 克隆到本地后，请使用Typora软件查看文件
-2. 图片资源已经统一设置为当前目录的`resource`文件下
-3. 对视频章节排序错误的内容进行了整理
-4. # 后续将继续对笔记内容进行添加，以丰富知识点

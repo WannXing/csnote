@@ -5,6 +5,22 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /slide.html
   "v-0e503981": () => import(/* webpackChunkName: "v-0e503981" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/slide.html.js").then(({ data }) => data),
+  // path: /ds/01.html
+  "v-2b5d6db1": () => import(/* webpackChunkName: "v-2b5d6db1" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/01.html.js").then(({ data }) => data),
+  // path: /ds/02.html
+  "v-2d124650": () => import(/* webpackChunkName: "v-2d124650" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/02.html.js").then(({ data }) => data),
+  // path: /ds/03.html
+  "v-2ec71eef": () => import(/* webpackChunkName: "v-2ec71eef" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/03.html.js").then(({ data }) => data),
+  // path: /ds/04.html
+  "v-307bf78e": () => import(/* webpackChunkName: "v-307bf78e" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/04.html.js").then(({ data }) => data),
+  // path: /ds/05.html
+  "v-3230d02d": () => import(/* webpackChunkName: "v-3230d02d" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/05.html.js").then(({ data }) => data),
+  // path: /ds/06.html
+  "v-33e5a8cc": () => import(/* webpackChunkName: "v-33e5a8cc" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/06.html.js").then(({ data }) => data),
+  // path: /ds/07.html
+  "v-359a816b": () => import(/* webpackChunkName: "v-359a816b" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/07.html.js").then(({ data }) => data),
+  // path: /ds/
+  "v-2d0a83e7": () => import(/* webpackChunkName: "v-2d0a83e7" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/index.html.js").then(({ data }) => data),
   // path: /guide/disable.html
   "v-4c863446": () => import(/* webpackChunkName: "v-4c863446" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/guide/disable.html.js").then(({ data }) => data),
   // path: /guide/encrypt.html
@@ -93,4 +109,6 @@ export const pagesData = {
   "v-06bbb262": () => import(/* webpackChunkName: "v-06bbb262" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/tag/tag-a/index.html.js").then(({ data }) => data),
   // path: /tag/tag-b/
   "v-06bbb224": () => import(/* webpackChunkName: "v-06bbb224" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/tag/tag-b/index.html.js").then(({ data }) => data),
+  // path: /ds/08.html
+  "v-374f5a0a": () => import(/* webpackChunkName: "v-374f5a0a" */"C:/Users/MJ/Desktop/csnote/doc/.vuepress/.temp/pages/ds/08.html.js").then(({ data }) => data),
 }
