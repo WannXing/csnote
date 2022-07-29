@@ -62,7 +62,8 @@
   SElemType data<span class="token punctuation">;</span>
   <span class="token keyword">struct</span> <span class="token class-name">StackNode</span> <span class="token operator">*</span>next<span class="token punctuation">;</span>
 <span class="token punctuation">}</span> StackNode<span class="token punctuation">,</span> <span class="token operator">*</span>LinkStack<span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- ### 习题
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><!-- 
+### 3.1习题
 
 #### 14【2010】若元素 abcdef 一次进栈，允许出栈、退栈操作交替进行，但不允许连续 3 次进行退栈操作，不可能得到的出栈序列是
 
@@ -81,7 +82,7 @@ D a f e d c b→D
 
 #### 26【2017】
 
-#### 28【2020】 -->
+#### 28【2020】 --> -->
 <h2 id="_3-2-队列-queue" tabindex="-1"><a class="header-anchor" href="#_3-2-队列-queue" aria-hidden="true">#</a> 3.2 队列 Queue</h2>
 <h3 id="队列的基本概念" tabindex="-1"><a class="header-anchor" href="#队列的基本概念" aria-hidden="true">#</a> 队列的基本概念</h3>
 <h3 id="队列的定义" tabindex="-1"><a class="header-anchor" href="#队列的定义" aria-hidden="true">#</a> 队列的定义</h3>
@@ -198,7 +199,7 @@ D a f e d c b→D
 </ul>
 </li>
 </ul>
-<!-- ### 习题
+<!-- ### 3.2习题
 
 - 8【2011】 已知循环队列存储在一维数组A[0...n-1]中，且队列非空时front和rear分别指向队头元素和队尾元素。若初试队列为空，且要求第一个进入队列的元素存储在A[0]处，则初始时front和rear的值分别是→0，n-1
 - 10【2014】
@@ -207,7 +208,7 @@ A 仅修改头指针
 B 仅修改尾指针
 C 头尾指针都要修改
 D 头尾指针可能都要修改→D，当队列元素>1时，删除操作只修改头指针；当队列元素=1时，删除操作头尾指针都要修改
-    - 16 假设循环单链表表示的队列长度为n，队头固定在链表尾，若只设头指针，则进队操作的时间复杂度为→O(n)
+  - 16 假设循环单链表表示的队列长度为n，队头固定在链表尾，若只设头指针，则进队操作的时间复杂度为→O(n)
 - 18【2010】
 - 19【2018】
 - 20【2016】
@@ -220,7 +221,7 @@ D 头尾指针可能都要修改→D，当队列元素>1时，删除操作只修
 ① 该队列是选择链式存储结构，还是应选择顺序存储结构？
 ② 画出队列的初始状态，并给出判断队空和队满的条件
 ③ 画出第一个元素入队后的队列状态
-④ 给出入队操作和出队操作的基本过程  -->
+④ 给出入队操作和出队操作的基本过程  --> -->
 <h2 id="_3-3-栈和队列的应用" tabindex="-1"><a class="header-anchor" href="#_3-3-栈和队列的应用" aria-hidden="true">#</a> 3.3 栈和队列的应用</h2>
 <ul>
 <li>栈在括号匹配中的应用</li>
@@ -253,9 +254,9 @@ D 头尾指针可能都要修改→D，当队列元素>1时，删除操作只修
 <li>队列在层次遍历中的应用</li>
 <li>队列在计算机系统中的应用</li>
 </ul>
-<!-- ### 习题
+<!-- ### 3.3习题
 
-#### 4【2009】为解决计算机主机与打印机之间速度不匹配的问题，通常设置一个打印数据缓冲区，主机将要输出的数据依次写入该缓冲区，而打印机则依次从该缓冲区中取出数据。该缓冲区的逻辑结构应该是
+- 4【2009】为解决计算机主机与打印机之间速度不匹配的问题，通常设置一个打印数据缓冲区，主机将要输出的数据依次写入该缓冲区，而打印机则依次从该缓冲区中取出数据。该缓冲区的逻辑结构应该是
 
 A 栈
 B 队列
@@ -269,7 +270,7 @@ B 广度优先搜索图
 C 前序（根）遍历二叉树
 D 深度优先搜索图 →B
 
-#### 11【2012】已知操作符包括+、-、_、/、( 和 )。将中缀表达式`a + b - a _ ( ( c + d) / e - f ) + g `转换为等价的后缀表达式`a b + a c d + e / f - \* - g + `时，用栈来存放暂时还不能确定运算次序的操作符。若栈初始为空，则转换过程中同时保存在栈中的操作符的最大个数是 →5
+#### 11【2012】已知操作符包括+、-、_、/、( 和 )。将中缀表达式`a + b - a _ ( ( c + d) / e - f ) + g`转换为等价的后缀表达式`a b + a c d + e / f - \* - g +`时，用栈来存放暂时还不能确定运算次序的操作符。若栈初始为空，则转换过程中同时保存在栈中的操作符的最大个数是 →5
 
 #### 12【2014】假设栈初始为空，将中缀表达式 `a / b + ( c * d - e * f ) / g` 转化为等价 的后缀表达式的过程中，当扫描到 f 时，栈中的元素依次是 →`+ ( - *`
 
@@ -298,41 +299,59 @@ void main(){
 <li>数组的定义
 <ul>
 <li>数组是由 n 个相同类型的数据元素构成的有限序列，每个数据元素称为一个数组元素</li>
+<li>类型定义</li>
 </ul>
-<!-- - 类型定义 -->
 </li>
 </ul>
-<!-- ```cpp
-typedef elemtype array2[m][n];
-// or
-typedef elemtype array1[n];
-typedef array1 array2[m];
-``` -->
-<p>举例说明</p>
-<p 1,="" 2,="" 3,="" 4="">​```cpp
-int array[3][3] =</p>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>
-- 结论
-  - 线性表结构是数组结构的一个特例
-  - 而数组结构又是线性表结构的扩展
-- 特点
-  - 结构固定：定义后，维数和维界不再改变
-- 基本操作
+<div class="language-cpp ext-cpp line-numbers-mode"><pre v-pre class="language-cpp"><code><span class="token keyword">typedef</span> elemtype array2<span class="token punctuation">[</span>m<span class="token punctuation">]</span><span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token comment">// or</span>
+<span class="token keyword">typedef</span> elemtype array1<span class="token punctuation">[</span>n<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">typedef</span> array1 array2<span class="token punctuation">[</span>m<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>举例说明</p>
+<div class="language-cpp ext-cpp line-numbers-mode"><pre v-pre class="language-cpp"><code><span class="token keyword">int</span> array<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">}</span>
 
-  - 除了结构的初始化和销毁之外，只有取元素和修改元素值的操作
-
-- 数组的存储结构
-- 矩阵的压缩存储
-  - 压缩存储
-  - 特殊矩阵
-  - 对称矩阵
-  - 三角矩阵
-  - 三对角矩阵
-- 稀疏矩阵
-  - 数组存储
-  - 十字链表法存储
-
-&lt;!-- ### 习题
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>
+<p>结论</p>
+<ul>
+<li>线性表结构是数组结构的一个特例</li>
+<li>而数组结构又是线性表结构的扩展</li>
+</ul>
+</li>
+<li>
+<p>特点</p>
+<ul>
+<li>结构固定：定义后，维数和维界不再改变</li>
+</ul>
+</li>
+<li>
+<p>基本操作</p>
+<ul>
+<li>除了结构的初始化和销毁之外，只有取元素和修改元素值的操作</li>
+</ul>
+</li>
+<li>
+<p>数组的存储结构</p>
+</li>
+<li>
+<p>矩阵的压缩存储</p>
+<ul>
+<li>压缩存储</li>
+<li>特殊矩阵</li>
+<li>对称矩阵</li>
+<li>三角矩阵</li>
+<li>三对角矩阵</li>
+</ul>
+</li>
+<li>
+<p>稀疏矩阵</p>
+<ul>
+<li>数组存储</li>
+<li>十字链表法存储</li>
+</ul>
+</li>
+</ul>
+<!-- ### 3.4习题
 - 6【2016】有一个100阶的三对角矩阵M，其元素$m_{i,j}(1\le i,j \le100)$按行优先依次压缩存入下标从0开始的一维数组N中。元素$m_{30,30}$ 在N中的下标是→87
 - 9【2017】适用于压缩存储稀疏矩阵的两种存储结构是
 A 三元组表和十字链表
@@ -341,5 +360,4 @@ C 十字链表和二叉链表
 D 邻接矩阵和十字链表→三元组表和十字链表
 - 10【2018】
 - 11【2020】 -->
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code></code></pre><div class="line-numbers" aria-hidden="true"></div></div></div></template>
+</div></template>
