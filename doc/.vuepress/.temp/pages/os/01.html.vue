@@ -1,5 +1,4 @@
-<template><div><h2 id="第一章——计算机系统概述" tabindex="-1"><a class="header-anchor" href="#第一章——计算机系统概述" aria-hidden="true">#</a> 第一章——计算机系统概述</h2>
-<h3 id="_1-1-操作系统的基本概念" tabindex="-1"><a class="header-anchor" href="#_1-1-操作系统的基本概念" aria-hidden="true">#</a> 1.1 操作系统的基本概念</h3>
+<template><div><h2 id="_1-1-操作系统的基本概念" tabindex="-1"><a class="header-anchor" href="#_1-1-操作系统的基本概念" aria-hidden="true">#</a> 1.1 操作系统的基本概念</h2>
 <p>系统软件，控制计算机硬件和软件资源</p>
 <p>操作系统的特征：最主要的是并发和共享</p>
 <p>（1）并发：分时交替。单处理机同时只能运行一个进程</p>
@@ -9,7 +8,7 @@
 <p>操作系统的功能：处理机管理，存储器管理，文件管理，设备管理</p>
 <p>操作系统的接口：命令接口（联机：交互式，脱机：批处理），系统调用（程序接口，给编程人员的接口）</p>
 <p>库函数来使用系统调用</p>
-<h3 id="_1-2-操作系统的发展和分类" tabindex="-1"><a class="header-anchor" href="#_1-2-操作系统的发展和分类" aria-hidden="true">#</a> 1.2 操作系统的发展和分类</h3>
+<h2 id="_1-2-操作系统的发展和分类" tabindex="-1"><a class="header-anchor" href="#_1-2-操作系统的发展和分类" aria-hidden="true">#</a> 1.2 操作系统的发展和分类</h2>
 <p>发展流程：手工操作阶段-&gt;批处理阶段-&gt;分时系统-&gt;实时系统-&gt;PC操作系统</p>
 <p>批处理系统：<strong>将一批作业进入内存</strong>，交给操作系统处理，用户脱机。优点：资源利用率高，<strong>缺点：无交互能力</strong></p>
 <ul>
@@ -22,8 +21,8 @@
 </ul>
 <p>分时操作系统：处理器的运行时间分成很短的时间片，轮流分配给各作业。多个用户共享一台主机，交互互不干扰</p>
 <p>实时操作系统：订票、银行，严格及时</p>
-<h3 id="_1-3-操作系统的运行环境" tabindex="-1"><a class="header-anchor" href="#_1-3-操作系统的运行环境" aria-hidden="true">#</a> 1.3 操作系统的运行环境</h3>
-<h4 id="_1-操作系统运行机制" tabindex="-1"><a class="header-anchor" href="#_1-操作系统运行机制" aria-hidden="true">#</a> 1.操作系统运行机制</h4>
+<h2 id="_1-3-操作系统的运行环境" tabindex="-1"><a class="header-anchor" href="#_1-3-操作系统的运行环境" aria-hidden="true">#</a> 1.3 操作系统的运行环境</h2>
+<h3 id="_1-操作系统运行机制" tabindex="-1"><a class="header-anchor" href="#_1-操作系统运行机制" aria-hidden="true">#</a> 1.操作系统运行机制</h3>
 <p>CPU有两种状态：用户态时，只能执行非特权指令，内核态可以执行特权指令</p>
 <p>操作系统内核包括：</p>
 <ul>
@@ -34,7 +33,7 @@
 </ul>
 <p>用户态到内核态切换需要通过中断或异常，反过来则需要中断返回指令。</p>
 <p>进程从用户态-&gt;内核态需要访管指令，中断处理程序在内核态运行。</p>
-<h4 id="_2-中断和异常" tabindex="-1"><a class="header-anchor" href="#_2-中断和异常" aria-hidden="true">#</a> 2.中断和异常</h4>
+<h3 id="_2-中断和异常" tabindex="-1"><a class="header-anchor" href="#_2-中断和异常" aria-hidden="true">#</a> 2.中断和异常</h3>
 <p>硬件中断：中断信号来自硬件设备</p>
 <ul>
 <li>外中断（中断）：来自外部设备，包括io设备中断、外部信号中断、定时器引起的时钟中断</li>
@@ -70,16 +69,16 @@
 </ul>
 </li>
 </ul>
-<h4 id="_3-系统调用" tabindex="-1"><a class="header-anchor" href="#_3-系统调用" aria-hidden="true">#</a> 3.系统调用</h4>
+<h3 id="_3-系统调用" tabindex="-1"><a class="header-anchor" href="#_3-系统调用" aria-hidden="true">#</a> 3.系统调用</h3>
 <p>程序调用操作系统提供的功能包括设备管理、文件管理、进程控制、进程通信、内存管理。</p>
 <p>用户程序通过<code v-pre>int 0x80</code>命令产生软中断，然后通过<strong>trap陷入指令</strong>发起系统调用，把CPU使用权主动交给内核，即用户态到内核态。此时，寄存器eax中会存放系统调用号，根据系统调用号查找系统调用表sys_call_table中对应的系统调用服务程序入口地址。内核处理完后，再把CPU使用权还给用户程序</p>
-<h3 id="_1-4-操作系统的体系结构" tabindex="-1"><a class="header-anchor" href="#_1-4-操作系统的体系结构" aria-hidden="true">#</a> 1.4 操作系统的体系结构</h3>
-<h4 id="分层法" tabindex="-1"><a class="header-anchor" href="#分层法" aria-hidden="true">#</a> 分层法</h4>
+<h2 id="_1-4-操作系统的体系结构" tabindex="-1"><a class="header-anchor" href="#_1-4-操作系统的体系结构" aria-hidden="true">#</a> 1.4 操作系统的体系结构</h2>
+<h3 id="分层法" tabindex="-1"><a class="header-anchor" href="#分层法" aria-hidden="true">#</a> 分层法</h3>
 <p>将操作系统分成若干层次，0为硬件（最底层），n为用户接口</p>
 <p>每层只能调用相邻的更低层的服务</p>
-<h4 id="模块化" tabindex="-1"><a class="header-anchor" href="#模块化" aria-hidden="true">#</a> 模块化</h4>
+<h3 id="模块化" tabindex="-1"><a class="header-anchor" href="#模块化" aria-hidden="true">#</a> 模块化</h3>
 <p>将操作系统按功能划分为多个模块，各模块之间通过接口通信</p>
-<h4 id="大内核与微内核" tabindex="-1"><a class="header-anchor" href="#大内核与微内核" aria-hidden="true">#</a> 大内核与微内核</h4>
+<h3 id="大内核与微内核" tabindex="-1"><a class="header-anchor" href="#大内核与微内核" aria-hidden="true">#</a> 大内核与微内核</h3>
 <p>大内核：操作系统主要模块都作为整体运行在内核态。</p>
 <ul>
 <li>性能高，但是增加系统服务时需要修改内核，接口复杂</li>
@@ -89,8 +88,8 @@
 <li>微内核基于用户/服务器模式，只有微内核运行在内核态，其他模块在用户态</li>
 <li>可靠性高，但需要频繁切换，性能差</li>
 </ul>
-<h3 id="_1-5-程序运行环境" tabindex="-1"><a class="header-anchor" href="#_1-5-程序运行环境" aria-hidden="true">#</a> 1.5 程序运行环境</h3>
-<h4 id="进程的内存映像与地址空间" tabindex="-1"><a class="header-anchor" href="#进程的内存映像与地址空间" aria-hidden="true">#</a> 进程的内存映像与地址空间</h4>
+<h2 id="_1-5-程序运行环境" tabindex="-1"><a class="header-anchor" href="#_1-5-程序运行环境" aria-hidden="true">#</a> 1.5 程序运行环境</h2>
+<h3 id="进程的内存映像与地址空间" tabindex="-1"><a class="header-anchor" href="#进程的内存映像与地址空间" aria-hidden="true">#</a> 进程的内存映像与地址空间</h3>
 <p>一个程序从硬盘调入内存就构成了进程的内存映像</p>
 <p>内存映像从上到下（高地址到低地址）：</p>
 <ul>
@@ -101,7 +100,7 @@
 </ul>
 <p>程序调入内存后，数据段和代码段大小固定</p>
 <p>此外，还有进程控制块PCB存放在系统区</p>
-<h3 id="_1-6-操作系统引导过程" tabindex="-1"><a class="header-anchor" href="#_1-6-操作系统引导过程" aria-hidden="true">#</a> 1.6 操作系统引导过程</h3>
+<h2 id="_1-6-操作系统引导过程" tabindex="-1"><a class="header-anchor" href="#_1-6-操作系统引导过程" aria-hidden="true">#</a> 1.6 操作系统引导过程</h2>
 <ul>
 <li>CPU执行ROM中的boot程序，将BIOS程序（基本输入输出系统）的第一条指令放入指令寄存器，开始执行BIOS</li>
 <li>BIOS硬件自检，通过遍历方式寻找带有主引导记录的系统硬盘</li>
@@ -110,7 +109,7 @@
 <li>（加载硬盘活动分区，分区引导记录PBR，启动管理器。。。）</li>
 <li>加载操作系统到内存中的系统区，属于RAM</li>
 </ul>
-<h3 id="_1-7-虚拟机" tabindex="-1"><a class="header-anchor" href="#_1-7-虚拟机" aria-hidden="true">#</a> 1.7 虚拟机</h3>
+<h2 id="_1-7-虚拟机" tabindex="-1"><a class="header-anchor" href="#_1-7-虚拟机" aria-hidden="true">#</a> 1.7 虚拟机</h2>
 <p>两种虚拟化方法</p>
 <p>1.第一类虚拟机</p>
 <p>虚拟机作为用户态的进程，当执行内核态指令时，陷入虚拟机管理程序。虚拟机管理程序检查该指令是否是虚拟机的操作系统执行的，是则正确执行</p>
