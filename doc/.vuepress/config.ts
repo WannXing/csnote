@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { searchConsolePlugin } from 'vuepress-plugin-china-search-console'
 import theme from "./theme";
 
 export default defineUserConfig({
@@ -9,4 +10,13 @@ export default defineUserConfig({
   base: "/",
 
   theme,
+  plugins: [
+    searchConsolePlugin({
+      // options ...
+      baiduId :"https://hm.baidu.com/hm.js?b6d599c072da173be238f2bfe83a025b",
+      toutiaoAutoPushId :"false",
+      autoPush360Switch :false,
+      autoPushBaiduSwitch :false,
+    })
+  ],
 });
