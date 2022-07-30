@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-0e503981\",\"path\":\"/slide.html\",\"title\":\"幻灯片页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"幻灯片页\",\"icon\":\"slides\",\"layout\":\"Slide\",\"date\":\"2022-07-28T00:00:00.000Z\",\"summary\":\"@slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。\\r\\\" 作者 Mr.Hope. 请滚动鼠标滚轮进入下一页\\\" --- 标注幻灯片 👇 -- 标注幻灯片 使用 --- 标注水平幻灯片 在水平幻灯片中使用 -- 分割垂直幻灯片 使用 `` 在幻灯片上添加属性 使用 `` 在前一个 HTML 元素上添加属性 --- Markdown 你可以在幻\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/slide.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"CS-Note\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"幻灯片页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-07-28T00:00:00.000Z\"}]]},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":4.52,\"words\":1355},\"filePathRelative\":\"slide.md\",\"localizedDate\":\"2022年7月28日\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-0e503981\",\"path\":\"/slide.html\",\"title\":\"幻灯片页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"幻灯片页\",\"icon\":\"slides\",\"layout\":\"Slide\",\"date\":\"2022-07-28T00:00:00.000Z\",\"summary\":\"@slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。\\r\\\" 作者 Mr.Hope. 请滚动鼠标滚轮进入下一页\\\" --- 标注幻灯片 👇 -- 标注幻灯片 使用 --- 标注水平幻灯片 在水平幻灯片中使用 -- 分割垂直幻灯片 使用 `` 在幻灯片上添加属性 使用 `` 在前一个 HTML 元素上添加属性 --- Markdown 你可以在幻\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-v2-demo.mrhope.site/slide.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"CS-Note\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"幻灯片页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2022-07-29T14:41:05.000Z\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-07-28T00:00:00.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2022-07-29T14:41:05.000Z\"}]]},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1658979894000,\"updatedTime\":1659105665000,\"contributors\":[{\"name\":\"Wannxing\",\"email\":\"wanxing0122@163.com\",\"commits\":2}]},\"readingTime\":{\"minutes\":4.52,\"words\":1355},\"filePathRelative\":\"slide.md\",\"localizedDate\":\"2022年7月28日\"}")
