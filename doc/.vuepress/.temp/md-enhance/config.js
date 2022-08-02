@@ -1,17 +1,17 @@
 import { defineClientConfig } from "@vuepress/client";
-import ChartJS from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/ChartJS";
-import ECharts from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/ECharts";
-import CodeDemo from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeDemo";
-import CodeTabs from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeTabs";
-import FlowChart from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/FlowChart";
-import Mermaid from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/Mermaid";
-import Presentation from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/Presentation";
-import "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/container/index.scss";
-import "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/footnote.scss";
-import "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/image-mark.scss";
-import Tabs from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/Tabs";
-import "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/tasklist.scss";
-import "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/tex.scss";
+import ChartJS from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/ChartJS";
+import ECharts from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/ECharts";
+import CodeDemo from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeDemo";
+import CodeTabs from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeTabs";
+import FlowChart from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/FlowChart";
+import Mermaid from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/Mermaid";
+import Presentation from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/Presentation";
+import "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/container/index.scss";
+import "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/footnote.scss";
+import "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/image-mark.scss";
+import Tabs from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/components/Tabs";
+import "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/tasklist.scss";
+import "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-md-enhance/lib/client/styles/tex.scss";
 
 
 export default defineClientConfig({

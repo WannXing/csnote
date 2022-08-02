@@ -1,9 +1,9 @@
-import { useStyleTag } from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-components/lib/client/composables";
+import { useStyleTag } from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-components/lib/client/composables";
 import { h } from "vue";
 import { defineClientConfig } from "@vuepress/client";
-import Badge from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-components/lib/client/components/Badge";
-import FontIcon from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
-import BackToTop from "C:/Users/MJ/Desktop/csnote/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
+import Badge from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-components/lib/client/components/Badge";
+import FontIcon from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-components/lib/client/components/FontIcon";
+import BackToTop from "D:/Mata/Docs/CSnote网站/csnote/node_modules/vuepress-plugin-components/lib/client/components/BackToTop";
 
 
 export default defineClientConfig({

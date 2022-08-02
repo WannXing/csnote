@@ -8,6 +8,7 @@ export default navbar([
   { text: "数据结构", icon: "edit", link: "/ds/"},
   { text: "组成原理", icon: "edit", link: "/co/"},
   { text: "操作系统", icon: "edit", link: "/os/"},
+  { text: "生活记录", icon: "edit", link: "/life/"}
   // {
   //   text: "博文",
   //   icon: "edit",

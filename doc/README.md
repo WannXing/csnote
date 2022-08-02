@@ -28,6 +28,10 @@ projects:
     desc: DS
     link: "/ds/"
 
+  - icon: article
+    name: 随笔
+    desc: Memo
+    link: "/life/"
   # - icon: friend
   #   name: 伙伴名称
   #   desc: 伙伴详细介绍

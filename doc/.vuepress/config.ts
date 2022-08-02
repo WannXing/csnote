@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { hopeTheme } from "vuepress-theme-hope";
 import { searchConsolePlugin } from 'vuepress-plugin-china-search-console'
 import theme from "./theme";
 
@@ -8,7 +9,6 @@ export default defineUserConfig({
   description: "CS-Note",
 
   base: "/",
-
   theme,
   plugins: [
     searchConsolePlugin({
