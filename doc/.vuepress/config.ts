@@ -8,7 +8,8 @@ export default defineUserConfig({
   title: "CS-Note",
   description: "CS-Note",
 
-  base: "/",
+  // base: "/",
+  base: "/csnote/",
   theme,
   plugins: [
     searchConsolePlugin({
