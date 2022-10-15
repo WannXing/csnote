@@ -16,8 +16,8 @@
     "vuepress-theme-hope": "^2.0.0-beta.87"
   },
   "dependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-alpha.1",
     "vuepress-plugin-baidu-tongji-analytics": "^1.0.2",
-    "vuepress-plugin-china-search-console": "^2.1.3",
-    "vuepress-plugin-docsearch": "^2.0.0-alpha.1"
+    "vuepress-plugin-china-search-console": "^2.1.3"
   }
 }
