@@ -109,7 +109,7 @@ export default hopeTheme({
     mdEnhance: {
       enableAll: true,
       presentation: {
-        plugins: ["highlight", "math", "notes", "zoom"],
+        plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
     },
   },
