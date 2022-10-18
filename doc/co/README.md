@@ -10,6 +10,5 @@ date: 2022-07-29
 * [03-存储系统](./03.md)
 * [04-指令系统](./04.md)
 * [05-中央处理器](./05.md)
-* [06-总线](./05.md)
-* [07-I/O](./06.md)
-* [08-排序](./07.md)
+* [06-总线](https://blog.csdn.net/Augenstern_QXL/article/details/126150797)
+* [07-I/O](https://blog.csdn.net/Augenstern_QXL/article/details/126150847)
